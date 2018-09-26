@@ -1,4 +1,4 @@
-package com.cricboards.controller;
+package com.cricboards.rs.controller;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MainController {
+public class RestMainController {
 
 	private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
